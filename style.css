@@ -1,0 +1,128 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: rgb(229, 229, 229);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+article,
+aside,
+section,
+header,
+footer,
+nav {
+    display: block;
+}
+
+ img{ 
+     float:right;
+    width:60px ;
+    height:60px  ;
+}
+main {
+    width: 75%;
+    
+    margin: 10px auto;
+    box-shadow: 0 0 10px #999999;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    min-width: 745px;
+}
+
+header {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(topo.jpg);
+    background-repeat: no-repeat;
+    background-size:80em auto;
+}
+
+nav {
+
+    width: 100%;
+    height: 36px;
+    background-color: rgb(12, 4, 1);
+}
+
+nav a {
+    box-shadow: 1px 1px 4px #999;
+    float: left;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #fc9;
+    text-decoration: none;
+    padding: 5px 2%;
+    margin-top: 5px;
+    font-size: 100%;
+    text-align: center;
+}
+nav a:hover{
+    color: rgb(0, 47, 255);
+    transition: all 2s ease;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.conteudo {
+    float: left;
+    width: 62%;
+
+    background-color: rgb(198, 225, 243);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 2%;
+}
+
+h1,h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 60px 0;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+ h2 {
+    font-size: 200%;
+    margin-top: 20px;
+}
+
+p {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    margin: 0;
+    padding: 0;
+    background-color: #fc9;
+}
+
+.conteudo img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+footer {
+    
+    color: black;
+    clear: both;
+    width: 72.5em;
+    height: 80px;
+    background-color: rgb(102, 255, 0);
+}
